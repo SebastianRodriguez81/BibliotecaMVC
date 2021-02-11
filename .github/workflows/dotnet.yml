@@ -25,7 +25,7 @@ jobs:
       run: dotnet test --no-build --verbosity normal
       # Generate the website
     - name: Publish
-      run: dotnet publish myapp.csproj --configuration Release
+      run: dotnet publish BibliotecaMVC.csproj --configuration Release
 
         # Publish the website
     - name: GitHub Pages action
