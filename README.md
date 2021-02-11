@@ -1,2 +1,2 @@
 # BibliotecaMVC
-Proyecto de Biblioteca Virtual para la materia NT! - ORT
+Proyecto de Biblioteca Virtual para la materia NT1 - ORT
