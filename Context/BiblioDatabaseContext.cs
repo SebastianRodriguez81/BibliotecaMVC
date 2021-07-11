@@ -17,9 +17,10 @@ namespace BibliotecaMVC.Context
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=.\\SQLExpress;Database=BiblioDatabase;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer("Server=tcp:nt1.database.windows.net;Database=BiblioDatabase;User ID=sebas;Password=Sebowi0510");
         }
-
+        // .\\SQLExpress
+        // Server=tcp:nt1.database.windows.net,1433;Initial Catalog=BiblioDatabase;Persist Security Info=False;User ID=sebas;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Libro>()

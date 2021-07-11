@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BibliotecaMVC.Migrations
 {
     [DbContext(typeof(BiblioDatabaseContext))]
-    [Migration("20201202144312_one-to-many")]
-    partial class onetomany
+    [Migration("20210711160516_BibliotecaMVC.Context.BiblioDatabaseContext")]
+    partial class BibliotecaMVCContextBiblioDatabaseContext
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

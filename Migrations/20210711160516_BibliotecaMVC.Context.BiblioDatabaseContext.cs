@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace BibliotecaMVC.Migrations
 {
-    public partial class onetomany : Migration
+    public partial class BibliotecaMVCContextBiblioDatabaseContext : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
